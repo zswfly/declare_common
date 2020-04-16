@@ -10,13 +10,8 @@ public class ResponseJson {
     private Integer status;
     private String description;
     private Map data;
+    private String message;
 
-    public ResponseJson(String code, Integer status, String description, Map data) {
-        this.code = code;
-        this.status = status;
-        this.description = description;
-        this.data = data;
-    }
     public ResponseJson() {
     }
     public String getCode() {
@@ -51,8 +46,24 @@ public class ResponseJson {
         this.data = data;
     }
 
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
+    public ResponseJson(String code, Integer status, String description, Map data, String message) {
+        this.code = code;
+        this.status = status;
+        this.description = description;
+        this.data = data;
+        this.message = message;
+    }
+
     @Override
     public String toString() {
-        return "ResponseJson{" + "code='" + code + '\'' + ", status=" + status + ", description='" + description + '\'' + ", data=" + data + '}';
+        return "ResponseJson{" + "code='" + code + '\'' + ", status=" + status + ", description='" + description + '\'' + ", data=" + data + ", message='" + message + '\'' + '}';
     }
 }

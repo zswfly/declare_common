@@ -1,4 +1,4 @@
-package com.zsw.entitys.common;
+package com.zsw.entitys.user;
 
 import java.io.Serializable;
 

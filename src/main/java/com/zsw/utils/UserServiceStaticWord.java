@@ -10,8 +10,12 @@ public class UserServiceStaticWord {
      * 正常
      */
     public  static  final int User_Status_0 = 0;
+    public  static  final String User_Status_enable = "enable";
     /**
      * 失效
      */
     public  static  final int User_Status_1 = 1;
+    public  static  final String User_Status_ban = "ban";
+
+
 }

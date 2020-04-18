@@ -1,6 +1,5 @@
 package com.zsw.entitys.common;
 
-import java.util.Map;
 
 /**
  * Created by zhangshaowei on 2020/4/11.
@@ -9,7 +8,7 @@ public class ResponseJson {
     private String code;
     private Integer status;
     private String description;
-    private Map data;
+    private Object data;
     private String message;
 
     public ResponseJson() {
@@ -38,11 +37,11 @@ public class ResponseJson {
         this.description = description;
     }
 
-    public Map getData() {
+    public Object getData() {
         return data;
     }
 
-    public void setData(Map data) {
+    public void setData(Object data) {
         this.data = data;
     }
 
@@ -54,7 +53,7 @@ public class ResponseJson {
         this.message = message;
     }
 
-    public ResponseJson(String code, Integer status, String description, Map data, String message) {
+    public ResponseJson(String code, Integer status, String description, Object data, String message) {
         this.code = code;
         this.status = status;
         this.description = description;

@@ -11,7 +11,11 @@ public class UserStaticURLUtil {
     public  static  final String userController = "/user";
     public  static  final String userController_login = "/login";
     public  static  final String userController_resetPassWord = "/resetPassWord";
-
+    public  static  final String userController_newUser = "/newUser";
+    public  static  final String userController_getUser = "/getUser";
+    public  static  final String userController_updateUser = "/updateUser";
+    public  static  final String userController_batchBan = "/batchBan";
+    public  static  final String userController_usersPage = "/usersPage";
 
 
 }

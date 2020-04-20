@@ -6,4 +6,6 @@ package com.zsw.utils;
 public class CommonStaticWord {
     public  static  final String System_Url = "/system";
 
+    public  static  final String CacheServices_Redis_VerifyCode_Type_LOGIN = "LOGIN";
+    public  static  final String CacheServices_Redis_VerifyCode_Type_REST_PASSWORD = "REST_PASSWORD";
 }

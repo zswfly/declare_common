@@ -14,4 +14,5 @@ public @interface Permission {
     String code() default "";
     String name() default "";
     String description() default "";
+    String url() default "";
 }

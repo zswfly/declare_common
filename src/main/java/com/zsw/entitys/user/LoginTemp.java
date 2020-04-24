@@ -10,7 +10,7 @@ public class LoginTemp implements Serializable {
     private static final long serialVersionUID = -7989789760059218794L;
 
     private String phone;
-    private String passWord;
+    private String password;
     private String verifyType;
     private String verifyCode;
 
@@ -22,12 +22,12 @@ public class LoginTemp implements Serializable {
         this.phone = phone;
     }
 
-    public String getPassWord() {
-        return passWord;
+    public String getPassword() {
+        return password;
     }
 
-    public void setPassWord(String passWord) {
-        this.passWord = passWord;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public String getVerifyType() {
@@ -49,9 +49,9 @@ public class LoginTemp implements Serializable {
     public LoginTemp() {
     }
 
-    public LoginTemp(String phone, String passWord, String verifyType, String verifyCode) {
+    public LoginTemp(String phone, String password, String verifyType, String verifyCode) {
         this.phone = phone;
-        this.passWord = passWord;
+        this.password = password;
         this.verifyType = verifyType;
         this.verifyCode = verifyCode;
     }

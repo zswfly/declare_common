@@ -20,6 +20,8 @@ public class UserDto implements Serializable{
     private Integer createUser;
     private Date updateTime;
     private Integer updateUser;
+    private String rememberToken;
+
 
     public Integer getId() {
         return id;
@@ -109,10 +111,18 @@ public class UserDto implements Serializable{
         this.updateUser = updateUser;
     }
 
+    public String getRememberToken() {
+        return rememberToken;
+    }
+
+    public void setRememberToken(String rememberToken) {
+        this.rememberToken = rememberToken;
+    }
+
     public UserDto() {
     }
 
-    public UserDto(Integer id, String userName, String phone, String email, String loginPwd, Integer status, String avatar, Date createTime, Integer createUser, Date updateTime, Integer updateUser) {
+    public UserDto(Integer id, String userName, String phone, String email, String loginPwd, Integer status, String avatar, Date createTime, Integer createUser, Date updateTime, Integer updateUser,String rememberToken) {
         this.id = id;
         this.userName = userName;
         this.phone = phone;
@@ -124,5 +134,6 @@ public class UserDto implements Serializable{
         this.createUser = createUser;
         this.updateTime = updateTime;
         this.updateUser = updateUser;
+        this.rememberToken = rememberToken;
     }
 }

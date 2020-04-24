@@ -12,12 +12,14 @@ public class InitPermission implements Serializable {
     private String name;
     private String description;
     private String code;
+    private String url;
 
 
-    public InitPermission(String name, String description, String code) {
+    public InitPermission(String name,  String code , String url , String description) {
         this.name = name;
         this.description = description;
         this.code = code;
+        this.url = url;
     }
 
     public InitPermission() {
@@ -45,5 +47,13 @@ public class InitPermission implements Serializable {
 
     public void setCode(String code) {
         this.code = code;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
     }
 }

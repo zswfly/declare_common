@@ -20,4 +20,7 @@ public class UserStaticURLUtil {
     public  static  final String userController_usersPage = "/usersPage";
 
 
+    //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    public  static  final String adminUserController = "/adminUser";
+
 }

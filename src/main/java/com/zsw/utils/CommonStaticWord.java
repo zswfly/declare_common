@@ -14,5 +14,14 @@ public class CommonStaticWord {
     public  static  final String userServices = "user-services";
 
 
+    /**
+     * 正常
+     */
+    public  static  final int Normal_Status_0 = 0;
+
+    /**
+     * 失效 禁用
+     */
+    public  static  final int Ban_Status_1 = 1;
 
 }

@@ -12,6 +12,8 @@ public class CommonStaticWord {
     public  static  final String HTTP = "http://";
     public  static  final String cacheServices = "cache-services";
     public  static  final String userServices = "user-services";
+    public  static  final String orderServices = "order-services";
+    public  static  final String messageServices = "message-services";
 
 
     /**

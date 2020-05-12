@@ -20,11 +20,20 @@ public class UserStaticURLUtil {
     public  static  final String userController_usersPage = "/usersPage";
 
     //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
     public  static  final String companyController = "/company";
     public  static  final String companyController_getUserCompanys = "/getUserCompanys";
     public  static  final String companyController_selectUserCompany = "/selectUserCompany";
 
+    public  static  final String companyController_companysPage = "/companysPage";
+    public  static  final String companyController_newCompany = "/newCompany";
+    public  static  final String companyController_getCompany = "/getCompany";
+    public  static  final String companyController_updateCompany = "/updateCompany";
+
+
     //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
     public  static  final String adminUserController = "/adminUser";
 
 }

@@ -14,6 +14,17 @@ public class ResponseCode {
      * 登录成功 code
      */
     public  static  final Integer Code_1 = 1;
-
+    /**
+     * 正常 code
+     */
+    public  static  final Integer Code_200 = 200;
+    public  static  final String Code_String_200 = "200";
+    /**
+     * 错误 code
+     */
+    public  static  final Integer Code_500 = 500;
+    public  static  final String Code_String_500 = "500";
+    public  static  final String Code_Bussiness_Error_String = "500";
+    public  static  final Integer Code_Bussiness_Error= 500;
 
 }

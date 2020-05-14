@@ -5,7 +5,7 @@ package com.zsw.entitys.common;
  * Created by zhangshaowei on 2020/4/11.
  */
 public class ResponseJson {
-    private String code;
+    private Integer code;
     private Integer status;
     private String description;
     private Object data;
@@ -13,11 +13,11 @@ public class ResponseJson {
 
     public ResponseJson() {
     }
-    public String getCode() {
+    public Integer getCode() {
         return code;
     }
 
-    public void setCode(String code) {
+    public void setCode(Integer code) {
         this.code = code;
     }
 
@@ -53,7 +53,7 @@ public class ResponseJson {
         this.message = message;
     }
 
-    public ResponseJson(String code, Integer status, String description, Object data, String message) {
+    public ResponseJson(Integer code, Integer status, String description, Object data, String message) {
         this.code = code;
         this.status = status;
         this.description = description;

@@ -8,4 +8,14 @@ public class MessageStaticURLUtil {
     public  static  final String aliyunSMSController = "/aliyunSMS";
     public  static  final String aliyunSMSController_sendVerifyCode = "/sendVerifyCode";
 
+
+
+
+    public  static  final String hwyMessageController = "/hwyMessage";
+    public  static  final String hwyMessageController_sendVerifyCode = "/sendVerifyCode";
+
+
+
+
+
 }

@@ -14,5 +14,9 @@ public class CacheStaticURLUtil {
     public  static  final String redisController_setVerifyCode = CommonStaticWord.System_Url + "/setVerifyCode";
     public  static  final String redisController_checkVerifyCode = CommonStaticWord.System_Url + "/checkVerifyCode";
 
+    public  static  final String redisController_putUserToken = CommonStaticWord.System_Url + "/putUserToken";
+    public  static  final String redisController_checkUserToken = CommonStaticWord.System_Url + "/checkUserToken";
+
+
 
 }

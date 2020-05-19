@@ -18,6 +18,9 @@ public class UserStaticURLUtil {
     public  static  final String userController_updateUser = "/updateUser";
     public  static  final String userController_batchBan = "/batchBan";
     public  static  final String userController_usersPage = "/usersPage";
+    public  static  final String userController_loginOut = "/loginOut";
+
+    public  static  final String userController_checkRememberToken = CommonStaticWord.System_Url + "/checkRememberToken";
 
     //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

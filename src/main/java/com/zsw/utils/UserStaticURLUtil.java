@@ -44,6 +44,8 @@ public class UserStaticURLUtil {
     public  static  final String departmentController_updateDepartment = "/updateDepartment";
     public  static  final String departmentController_deleteDepartment = "/deleteDepartment";
 
+    public  static  final String departmentController_relationDepartmentUser = "/relationDepartmentUser";
+
     //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 

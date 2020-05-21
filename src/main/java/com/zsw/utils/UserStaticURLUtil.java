@@ -32,7 +32,17 @@ public class UserStaticURLUtil {
     public  static  final String companyController_newCompany = "/newCompany";
     public  static  final String companyController_getCompany = "/getCompany";
     public  static  final String companyController_updateCompany = "/updateCompany";
+    public  static  final String companyController_deleteCompany = "/deleteCompany";
 
+    //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+    public  static  final String departmentController = "/department";
+
+    public  static  final String departmentController_departmentsPage = "/departmentsPage";
+    public  static  final String departmentController_newDepartment = "/newDepartment";
+    public  static  final String departmentController_getDepartment = "/getDepartment";
+    public  static  final String departmentController_updateDepartment = "/updateDepartment";
+    public  static  final String departmentController_deleteDepartment = "/deleteDepartment";
 
     //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

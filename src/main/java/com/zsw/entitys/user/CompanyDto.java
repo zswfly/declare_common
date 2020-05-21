@@ -11,27 +11,45 @@ public class CompanyDto implements Serializable {
 
     private static final long serialVersionUID = -4669482850311161390L;
 
-    private int id;
+//    private Integer id;
+//    private String name;
+//    private Integer status;
+//    private Timestamp createTime;
+//    private Integer createUser;
+//    private Timestamp updateTime;
+//    private Integer updateUser;
+//    private String url;
+//    private String mnemonicCode;
+//    private String contact;
+//    private String contactPhone;
+
+    private Integer id;
     private String name;
-    private int status;
+    private Integer status;
     private Timestamp createTime;
-    private int createUser;
+    private Integer createUser;
     private Timestamp updateTime;
-    private int updateUser;
+    private Integer updateUser;
     private String url;
     private String mnemonicCode;
     private String contact;
     private String contactPhone;
-
+    private String contactAddress;
+    private Integer size;
+    private Integer creatorId;
+    private Date contractStartAt;
+    private Date contractEndAt;
+    private Integer managerId;
 
     public CompanyDto() {
     }
 
-    public int getId() {
+
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -43,11 +61,11 @@ public class CompanyDto implements Serializable {
         this.name = name;
     }
 
-    public int getStatus() {
+    public Integer getStatus() {
         return status;
     }
 
-    public void setStatus(int status) {
+    public void setStatus(Integer status) {
         this.status = status;
     }
 
@@ -59,11 +77,11 @@ public class CompanyDto implements Serializable {
         this.createTime = createTime;
     }
 
-    public int getCreateUser() {
+    public Integer getCreateUser() {
         return createUser;
     }
 
-    public void setCreateUser(int createUser) {
+    public void setCreateUser(Integer createUser) {
         this.createUser = createUser;
     }
 
@@ -75,11 +93,11 @@ public class CompanyDto implements Serializable {
         this.updateTime = updateTime;
     }
 
-    public int getUpdateUser() {
+    public Integer getUpdateUser() {
         return updateUser;
     }
 
-    public void setUpdateUser(int updateUser) {
+    public void setUpdateUser(Integer updateUser) {
         this.updateUser = updateUser;
     }
 
@@ -123,19 +141,19 @@ public class CompanyDto implements Serializable {
         this.contactAddress = contactAddress;
     }
 
-    public int getSize() {
+    public Integer getSize() {
         return size;
     }
 
-    public void setSize(int size) {
+    public void setSize(Integer size) {
         this.size = size;
     }
 
-    public int getCreatorId() {
+    public Integer getCreatorId() {
         return creatorId;
     }
 
-    public void setCreatorId(int creatorId) {
+    public void setCreatorId(Integer creatorId) {
         this.creatorId = creatorId;
     }
 
@@ -155,21 +173,11 @@ public class CompanyDto implements Serializable {
         this.contractEndAt = contractEndAt;
     }
 
-    public int getManagerId() {
+    public Integer getManagerId() {
         return managerId;
     }
 
-    public void setManagerId(int managerId) {
+    public void setManagerId(Integer managerId) {
         this.managerId = managerId;
     }
-
-    private String contactAddress;
-    private int size;
-    private int creatorId;
-    private Date contractStartAt;
-    private Date contractEndAt;
-    private int managerId;
-
-
-
 }

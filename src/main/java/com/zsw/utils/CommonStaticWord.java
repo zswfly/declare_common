@@ -26,4 +26,17 @@ public class CommonStaticWord {
      */
     public  static  final int Ban_Status_1 = 1;
 
+
+    /*
+    *
+    * 禁用字符串字段
+    * */
+    public  static  final String Status_enable = "enable";
+
+    /*
+     *
+     * 启用字符串字段
+     * */
+    public  static  final String Status_ban = "ban";
+
 }

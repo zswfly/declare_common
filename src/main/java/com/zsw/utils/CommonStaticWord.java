@@ -1,5 +1,7 @@
 package com.zsw.utils;
 
+import java.util.ArrayList;
+
 /**
  * Created by zhangshaowei on 2020/4/17.
  */
@@ -38,5 +40,14 @@ public class CommonStaticWord {
      * 启用字符串字段
      * */
     public  static  final String Status_ban = "ban";
+
+    public  static  final ArrayList<String> sensitiveMetodName = getSensitiveMetodName();
+
+    public  static ArrayList<String>  getSensitiveMetodName (){
+        ArrayList<String> temp = new ArrayList();
+        temp.add("login");
+        temp.add("resetPassWord");
+        return temp;
+    }
 
 }

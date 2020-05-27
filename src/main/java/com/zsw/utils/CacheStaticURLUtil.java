@@ -17,6 +17,10 @@ public class CacheStaticURLUtil {
     public  static  final String redisController_putUserToken = CommonStaticWord.System_Url + "/putUserToken";
     public  static  final String redisController_checkUserToken = CommonStaticWord.System_Url + "/checkUserToken";
 
+    public  static  final String redisController_putAdminUserToken = CommonStaticWord.System_Url + "/putAdminUserToken";
+    public  static  final String redisController_checkAdminUserToken = CommonStaticWord.System_Url + "/checkAdminUserToken";
+
+
 
 
 }

@@ -13,6 +13,7 @@ public class DepartmentDto  implements Serializable {
     private Integer id;
     private String name;
     private Integer companyId;
+    private Integer parentId;
     private Integer status;
     private Timestamp createTime;
     private Integer createUser;
@@ -95,5 +96,13 @@ public class DepartmentDto  implements Serializable {
 
     public void setMnemonicCode(String mnemonicCode) {
         this.mnemonicCode = mnemonicCode;
+    }
+
+    public Integer getParentId() {
+        return parentId;
+    }
+
+    public void setParentId(Integer parentId) {
+        this.parentId = parentId;
     }
 }

@@ -50,7 +50,12 @@ public class UserStaticURLUtil {
 
     //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+    public  static  final String admin = "/admin";
+    public  static  final String adminUserController = admin + "/adminUser";
 
-    public  static  final String adminUserController = "/adminUser";
+    public  static  final String adminUserController_login = "/login";
+    public  static  final String adminUserController_resetPassWord = "/resetPassWord";
+    public  static  final String adminUserController_loginOut = "/loginOut";
+    public  static  final String adminUserController_checkRememberToken = CommonStaticWord.System_Url + "/checkRememberToken";
 
 }

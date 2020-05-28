@@ -6,7 +6,11 @@ package com.zsw.utils;
 public class UserStaticURLUtil {
 
     public  static  final String permissionController = "/permission";
+
     public  static  final String permissionController_initPermission = CommonStaticWord.System_Url + "/init_permission";
+
+    public  static  final String permissionController_permissionsPage = "/permissionsPage";
+    public  static  final String permissionController_getPermission = "/getPermission";
 
     //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

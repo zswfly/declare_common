@@ -75,6 +75,11 @@ public class UserStaticURLUtil {
 
 
 
+    public  static  final String adminUserController_getAdminUser =  "/getAdminUser";
+
+
+
+
 
     //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

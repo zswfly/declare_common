@@ -11,58 +11,19 @@ public class AdminUserDto implements Serializable{
 
     private static final long serialVersionUID = -3379872615014108138L;
 
-    private Integer id;
-    private String userName;
-    private String phone;
-    private String email;
-    private String loginPwd;
+    private Integer user_id;
     private Integer status;
-    private String avatar;
     private Date createTime;
     private Integer createUser;
     private Date updateTime;
     private Integer updateUser;
-    private String rememberToken;
 
-
-    public Integer getId() {
-        return id;
+    public Integer getUser_id() {
+        return user_id;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public String getUserName() {
-        return userName;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getLoginPwd() {
-        return loginPwd;
-    }
-
-    public void setLoginPwd(String loginPwd) {
-        this.loginPwd = loginPwd;
+    public void setUser_id(Integer user_id) {
+        this.user_id = user_id;
     }
 
     public Integer getStatus() {
@@ -71,14 +32,6 @@ public class AdminUserDto implements Serializable{
 
     public void setStatus(Integer status) {
         this.status = status;
-    }
-
-    public String getAvatar() {
-        return avatar;
-    }
-
-    public void setAvatar(String avatar) {
-        this.avatar = avatar;
     }
 
     public Date getCreateTime() {
@@ -113,29 +66,6 @@ public class AdminUserDto implements Serializable{
         this.updateUser = updateUser;
     }
 
-    public String getRememberToken() {
-        return rememberToken;
-    }
-
-    public void setRememberToken(String rememberToken) {
-        this.rememberToken = rememberToken;
-    }
-
     public AdminUserDto() {
-    }
-
-    public AdminUserDto(Integer id, String userName, String phone, String email, String loginPwd, Integer status, String avatar, Date createTime, Integer createUser, Date updateTime, Integer updateUser, String rememberToken) {
-        this.id = id;
-        this.userName = userName;
-        this.phone = phone;
-        this.email = email;
-        this.loginPwd = loginPwd;
-        this.status = status;
-        this.avatar = avatar;
-        this.createTime = createTime;
-        this.createUser = createUser;
-        this.updateTime = updateTime;
-        this.updateUser = updateUser;
-        this.rememberToken = rememberToken;
     }
 }

@@ -63,6 +63,7 @@ public class UserStaticURLUtil {
     public  static  final String companyController_getCompany = "/getCompany";
     public  static  final String companyController_updateCompany = "/updateCompany";
     public  static  final String companyController_deleteCompany = "/deleteCompany";
+    public  static  final String companyController_batchBan = "/batchBan";
 
 
     //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

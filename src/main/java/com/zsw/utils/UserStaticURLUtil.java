@@ -77,7 +77,7 @@ public class UserStaticURLUtil {
 
 
     public  static  final String adminUserController_getAdminUser =  "/getAdminUser";
-
+    public  static  final String adminUserController_batchBan = "/batchBan";
 
 
 

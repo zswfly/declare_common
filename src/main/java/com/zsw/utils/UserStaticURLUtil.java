@@ -30,6 +30,11 @@ public class UserStaticURLUtil {
     public  static  final String  userController_getUserCompanys = "/getUserCompanys";
 
 
+    public  static  final String userController_relationUserRole = "/relationUserRole";
+    public  static  final String userController_deleteUserRole = "/deleteUserRole";
+
+
+
     //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     public  static  final String departmentController = "/department";
@@ -112,6 +117,8 @@ public class UserStaticURLUtil {
     public  static  final String roleControler_batchBan = "/batchBan";
 
 
+    public  static  final String roleControler_relationRolePermission = "/relationRolePermission";
+    public  static  final String roleControler_deleteRolePermission = "/deleteRolePermission";
 
 
 

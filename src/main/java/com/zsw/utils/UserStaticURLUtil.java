@@ -60,8 +60,6 @@ public class UserStaticURLUtil {
     //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     public  static  final String companyController = admin + "/company";
-    public  static  final String companyController_getUserCompanys = "/getUserCompanys";
-    public  static  final String companyController_selectUserCompany = "/selectUserCompany";
 
     public  static  final String companyController_companysPage = "/companysPage";
     public  static  final String companyController_newCompany = "/newCompany";

@@ -17,6 +17,7 @@ public class CommonStaticWord {
     public  static  final String orderServices = "order-services";
     public  static  final String messageServices = "message-services";
     public  static  final String dictionaryServices = "dictionary-services";
+    public  static  final String crmServices = "crm-services";
 
 
     /**

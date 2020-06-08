@@ -107,16 +107,16 @@ public class UserStaticURLUtil {
 
 
     //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    public  static  final String roleController = "/roleControler";
-    public  static  final String roleControler_newRole = "/newRole";
-    public  static  final String roleControler_getRole = "/getRole";
-    public  static  final String roleControler_updateRole = "/updateRole";
-    public  static  final String roleControler_rolePage = "/rolePage";
-    public  static  final String roleControler_batchBan = "/batchBan";
+    public  static  final String roleController = "/roleController";
+    public  static  final String roleController_newRole = "/newRole";
+    public  static  final String roleController_getRole = "/getRole";
+    public  static  final String roleController_updateRole = "/updateRole";
+    public  static  final String roleController_rolePage = "/rolePage";
+    public  static  final String roleController_batchBan = "/batchBan";
 
 
-    public  static  final String roleControler_relationRolePermission = "/relationRolePermission";
-    public  static  final String roleControler_deleteRolePermission = "/deleteRolePermission";
+    public  static  final String roleController_relationRolePermission = "/relationRolePermission";
+    public  static  final String roleController_deleteRolePermission = "/deleteRolePermission";
 
 
 

@@ -7,62 +7,62 @@ public class DictionaryStaticURLUtil {
 
 
     //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    public  static  final String containerControler = "/containerControler";
-    public  static  final String containerControler_newContainer = "/newContainer";
-    public  static  final String containerControler_getContainer = "/getContainer";
-    public  static  final String containerControler_updateContainer = "/updateContainer";
-    public  static  final String containerControler_containerPage = "/containerPage";
-    public  static  final String containerControler_batchBan = "/batchBan";
+    public  static  final String containerController = "/containerController";
+    public  static  final String containerController_newContainer = "/newContainer";
+    public  static  final String containerController_getContainer = "/getContainer";
+    public  static  final String containerController_updateContainer = "/updateContainer";
+    public  static  final String containerController_containerPage = "/containerPage";
+    public  static  final String containerController_batchBan = "/batchBan";
 
 
     //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    public  static  final String costControler = "/costControler";
-    public  static  final String costControler_newCost = "/newCost";
-    public  static  final String costControler_getCost = "/getCost";
-    public  static  final String costControler_updateCost = "/updateCost";
-    public  static  final String costControler_costPage = "/costPage";
-    public  static  final String costControler_batchBan = "/batchBan";
+    public  static  final String costController = "/costController";
+    public  static  final String costController_newCost = "/newCost";
+    public  static  final String costController_getCost = "/getCost";
+    public  static  final String costController_updateCost = "/updateCost";
+    public  static  final String costController_costPage = "/costPage";
+    public  static  final String costController_batchBan = "/batchBan";
 
 
     //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    public  static  final String crmObjectControler = "/crmObjectControler";
-    public  static  final String crmObjectControler_newCrmObject = "/newCrmObject";
-    public  static  final String crmObjectControler_getCrmObject = "/getCrmObject";
-    public  static  final String crmObjectControler_updateCrmObject = "/updateCrmObject";
-    public  static  final String crmObjectControler_crmObjectPage = "/crmObjectPage";
-    public  static  final String crmObjectControler_batchBan = "/batchBan";
-
-
-
-    //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    public  static  final String goodsControler = "/goodsControler";
-    public  static  final String goodsControler_newGoods = "/newGoods";
-    public  static  final String goodsControler_getGoods = "/getGoods";
-    public  static  final String goodsControler_updateGoods = "/updateGoods";
-    public  static  final String goodsControler_goodsPage = "/goodsPage";
-    public  static  final String goodsControler_batchBan = "/batchBan";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    public  static  final String crmObjectController = "/crmObjectController";
+    public  static  final String crmObjectController_newCrmObject = "/newCrmObject";
+    public  static  final String crmObjectController_getCrmObject = "/getCrmObject";
+    public  static  final String crmObjectController_updateCrmObject = "/updateCrmObject";
+    public  static  final String crmObjectController_crmObjectPage = "/crmObjectPage";
+    public  static  final String crmObjectController_batchBan = "/batchBan";
 
 
 
     //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    public  static  final String testControler = "/testControler";
+    public  static  final String goodsController = "/goodsController";
+    public  static  final String goodsController_newGoods = "/newGoods";
+    public  static  final String goodsController_getGoods = "/getGoods";
+    public  static  final String goodsController_updateGoods = "/updateGoods";
+    public  static  final String goodsController_goodsPage = "/goodsPage";
+    public  static  final String goodsController_batchBan = "/batchBan";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    public  static  final String testController = "/testController";
 
 }

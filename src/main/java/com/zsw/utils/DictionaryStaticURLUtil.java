@@ -45,6 +45,15 @@ public class DictionaryStaticURLUtil {
 
 
 
+    //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    public  static  final String filesController = "/filesController";
+    public  static  final String filesController_newFiles = "/newFiles";
+    public  static  final String filesController_getFiles = "/getFiles";
+    public  static  final String filesController_filesPage = "/filesPage";
+    public  static  final String filesController_deleteFiles = "/deleteFiles";
+
+
+
 
 
 

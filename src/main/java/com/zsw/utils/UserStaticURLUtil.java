@@ -12,6 +12,9 @@ public class UserStaticURLUtil {
     public  static  final String permissionController_permissionsPage = "/permissionsPage";
     public  static  final String permissionController_getPermission = "/getPermission";
 
+    public  static  final String permissionController_refreshUserPermission = "/refreshUserPermission";
+
+
     //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     public  static  final String userController = "/user";

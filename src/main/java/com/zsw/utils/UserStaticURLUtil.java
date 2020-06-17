@@ -123,6 +123,9 @@ public class UserStaticURLUtil {
     public  static  final String roleController_deleteRolePermission = "/deleteRolePermission";
 
 
+    public  static  final String roleController_getRolePermissions = "/getRolePermissions";
+
+
 
     //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 }
